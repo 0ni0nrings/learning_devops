@@ -10,6 +10,11 @@ cd HelloWorld
 eb init --profile aws-devops
 echo "Hello World" > index.html
 eb create dev-env
+eb open
+eb status
+eb health
+eb logs
+eb deploy
 ```
 
 # 2) configurations
